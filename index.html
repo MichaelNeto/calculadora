@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Calculadora</title>
+</head>
+<link rel="stylesheet" href="calculadora.css">
+<body>
+    <section>
+        <div class="calculadora-conteiner">
+            <h1>Calculadora</h1> </div>
+            <div class="input-group1">
+            <label for="n1">Entrada 1:</label>
+            <input type="number" name="numero" id="n1">
+        </div>
+        <div class="input-group2">
+            <label for="n2">Entrada 2:</label>
+            <input type="number" name="numero" id="n2">
+        </div>
+        <div class="button-group">
+        
+                <button onclick="somar()"><strong>Somar</strong></button>
+                <button onclick="subtrair()"><strong>Subtrair</strong></button>
+                <button onclick="multiplicar()"><strong>Multiplicar</strong></button>
+                <button onclick="dividir()"><strong>Dividir</strong></button>
+        
+        </div>
+        <p>Resultado: <span></span></p>
+    </section>
+    <footer>
+        <p>&copy; Criador Michael Neto</p>
+    </footer>
+
+   
+</body>
+<script src = "calculadora.js"></script>
+</html>
